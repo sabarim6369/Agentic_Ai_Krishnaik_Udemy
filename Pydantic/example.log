@@ -1,0 +1,12 @@
+2025-07-27 21:05:38,633 - INFO - Logging from Pydantic example!
+2025-07-27 21:05:38,633 - DEBUG - This is a debug message
+2025-07-27 21:09:21,484 - INFO - Logging from Pydantic example!
+2025-07-27 21:09:21,485 - DEBUG - This is a debug message
+2025-07-27 21:09:45,585 - INFO - Logging from Pydantic example!
+2025-07-27 21:09:45,585 - DEBUG - This is a debug message
+2025-07-27 22:23:55,236 - INFO - Logging from Pydantic example!
+2025-07-27 22:23:55,236 - DEBUG - This is a debug message
+2025-07-27 22:24:34,261 - INFO - Logging from Pydantic example!
+2025-07-27 22:24:34,262 - DEBUG - This is a debug message
+2025-07-27 22:25:00,427 - INFO - Logging from Pydantic example!
+2025-07-27 22:25:00,428 - DEBUG - This is a debug message

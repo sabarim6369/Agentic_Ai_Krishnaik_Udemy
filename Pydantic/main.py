@@ -45,7 +45,6 @@ a=Subclass(name="sabari",age=25, city="Chennai", country="India")
 a.display()      
 
 
-#logging configuration
 import logging
 logging.basicConfig(
     level=logging.DEBUG,
@@ -66,3 +65,13 @@ class Dummy(BaseModel):
         print(f"Name: {self.name}, Age: {self.age if self.age is not None else 'Not provided'}")  
 d=Dummy(name="Sabari",age=2)
 d.display()        
+
+from dataclasses import dataclass
+@dataclass
+class Dummy:
+    name:str
+    age:Optional[int] = None
+    def display(self):
+        print(f"Name: {self.name}, Age: {self.age if self.age is not None else 'Not provided'}")
+d2=Dummy(name="Sabari")
+d2.display()        

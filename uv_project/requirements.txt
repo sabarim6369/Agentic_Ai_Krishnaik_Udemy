@@ -2,3 +2,6 @@ langchain
 langchain-community
 beautifulsoup4
 langchain-text-splitters
+sentence-transformers   #for embedding the data
+langchain-huggingface
+faiss-cpu
